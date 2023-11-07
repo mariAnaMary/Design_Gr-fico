@@ -1,0 +1,59 @@
+.fundo{
+    background-color: var(--cor-fundo1);
+    min-height: 600px;
+}
+
+.h2{
+    font-family: 'Fredoka';
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.p{
+    font-family: 'Fredoka';
+    font-size: 18px;
+    text-align: center;
+}
+
+.linha{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.botao{
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    background: pink;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Fredoka';
+}
+
+.botao:hover{
+    background-color: var(--cor-botoes);
+}
+
+.form{
+    max-width: 418px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Fredoka';
+    font-size: 16px;
+}
+
+@media (max-width: 426px) {
+    .h2{
+        font-size: 22px;
+    }
+}

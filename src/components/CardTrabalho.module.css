@@ -1,0 +1,27 @@
+.card{
+    background-color: white;
+    border-radius: 15px;
+    height: 235px;
+    width: 260px;
+    border: 1px solid var(--cor-linha, #000);
+    text-align: center;
+    position: relative;
+}
+
+.card:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.img{
+    width: 170px;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.texto{
+    font-family: 'Fredoka';
+    font-size: 18px;
+}

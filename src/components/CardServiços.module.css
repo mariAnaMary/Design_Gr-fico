@@ -1,0 +1,39 @@
+.card{
+    background-color: white;
+    border-radius: 15px;
+    height: 235px;
+    width: 260px;
+    border: 1px solid var(--cor-linha, #000);
+    text-align: center;
+    position: relative;
+}
+
+.img{
+    width: 170px;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.texto{
+    font-family: 'Fredoka';
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button{
+    border-radius: 14px;
+    border: none;
+    margin-top: 10px;
+    background: pink;
+    width: 86px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Fredoka';
+}
+
+.button:hover{
+    background-color: var(--cor-botoes);
+}

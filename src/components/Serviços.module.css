@@ -1,0 +1,47 @@
+.fundo{
+    min-height: 500px;
+}
+
+.h2{
+    font-family: 'Fredoka';
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.p{
+    font-family: 'Fredoka';
+    font-size: 18px;
+    text-align: center;
+}
+
+.linha{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.itens {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.itens:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+@media (max-width: 750px) {
+    .itens{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}

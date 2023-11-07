@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Fredoka';
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.itens:hover{
+    color: white;
+    background-color: var(--cor-botoes);
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.img{
+    height:60px;
+    width: 60px;
+    margin: 5px;
+}
+
+.header {
+    background-color: var(--cor-nave);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.nav:hover{
+    color: black;
+}

@@ -1,0 +1,46 @@
+.fundo{
+    background-color: var(--cor-fundo);
+    min-height: 500px;
+}
+
+.h2{
+    font-family: 'Fredoka';
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.p{
+    font-family: 'Fredoka';
+    font-size: 18px;
+    text-align: center;
+}
+
+.linha{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+.itens {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 426px) {
+    .itens{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 758px) {
+    .itens{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
